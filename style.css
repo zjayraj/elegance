@@ -1,0 +1,951 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.right1 {
+    display: none;
+}
+
+.right {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.right ul li {
+    list-style: none;
+    float: left;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+
+.main2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(img/slider/cloud.png);
+    background-color: #000;
+    background-size: cover;
+}
+
+.main3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #323A45;
+    color: #fff;
+}
+
+.main3 hr {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.main3 p {
+    margin: 20px 0px 20px 0;
+}
+
+.main3 h1 {
+    margin: 50px 0px 10px 0px;
+}
+
+.main4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(179, 105, 149, 0.70), #b36995), url(img/parlex.png);
+}
+
+.a {
+    width: 70%;
+    margin: auto;
+}
+
+.a1 {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.a1 h1 {
+    margin: 10px 0px 10px 0px;
+}
+
+.a1 p {
+    margin: 30px 0px 30px 0px;
+}
+
+.but1 {
+    background-color: transparent;
+    color: #fff;
+    width: 25%;
+    height: 7vh;
+}
+
+.but2 {
+    background-color: #323A45;
+    color: #fff;
+    width: 25%;
+    height: 7vh;
+    border: transparent;
+}
+
+.a2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.main5 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #303030;
+    height: 20vh;
+}
+
+.b {
+    width: 70%;
+    margin: auto;
+}
+
+.b1 {
+    box-sizing: border-box;
+    border: 1px solid white;
+    height: 12vh;
+    margin-top: 3%;
+    color: #fff;
+    text-align: left;
+    padding: 0 0 0 3%;
+}
+
+.b2 {
+    width: 70%;
+    float: left;
+    margin-top: 3%;
+}
+
+.b3 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.main6 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(#800b36, rgba(128, 11, 54, 0.50) 56%), url(img/parlex.png);
+}
+
+.main6 h1 {
+    margin: 30px 0 10px 0;
+}
+
+.main6 p {
+    margin: 20px 0 20px 0;
+}
+
+.c {
+    width: 70%;
+    margin: auto;
+}
+
+.c1 {
+    margin: 50px 0 100px 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.c2 {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.main7 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: linear-gradient(#0ac791, #00c788);
+}
+
+.d {
+    width: 70%;
+    margin: auto;
+}
+
+.d h1 {
+    margin: 50px 0 10px 0;
+}
+
+.d p {
+    margin: 10px 0 10px 0;
+}
+
+.d1 {
+    width: 23%;
+    float: left;
+    margin: 30px 10px 30px 10px;
+}
+
+.d1 i {
+    box-sizing: border-box;
+    border: 4px solid white;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5%;
+}
+
+.d1 h3 {
+    margin-top: 12%;
+}
+
+.main8 {
+    width: 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(rgba(72, 207, 173, 0.99), rgba(72, 207, 173, 0.78)), url(img/parlex.png);
+}
+
+.e {
+    width: 70%;
+    margin: auto;
+}
+
+.e h1 {
+    margin: 30px 0 10px 0;
+}
+
+.e p {
+    margin: 20px 0 20px 0;
+}
+
+.e1 {
+    width: 70%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.e2 {
+    width: 30%;
+    float: left;
+}
+
+.e2 img {
+    width: 90%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    border: 10px solid #fff;
+}
+
+.main9 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: linear-gradient(#00b8b1, rgba(7, 148, 143, 0.92))
+}
+
+.v {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.w {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.w1 {
+    box-sizing: border-box;
+    border: 1px solid #ffce54;
+    background-color: #ffce54;
+}
+
+.w2 {
+    box-sizing: border-box;
+    border: 1px solid #ffce54;
+    background-color: transparent;
+}
+
+.w3 {
+    box-sizing: border-box;
+    border: 1px solid #ffce54;
+    background-color: transparent;
+    height: 10vh;
+}
+
+.w3 button {
+    width: 30%;
+    height: 4vh;
+    margin-top: 15%;
+    background-color: #ffce54;
+}
+
+.x {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.x1 {
+    box-sizing: border-box;
+    border: 1px solid #ed5565;
+    background-color: #ed5565;
+}
+
+.x2 {
+    box-sizing: border-box;
+    border: 1px solid #ed5565;
+    background-color: transparent;
+}
+
+.x3 {
+    box-sizing: border-box;
+    border: 1px solid #ed5565;
+    background-color: transparent;
+    height: 10vh;
+}
+
+.x3 button {
+    width: 30%;
+    height: 4vh;
+    margin-top: 15%;
+    background-color: #ed5565;
+}
+
+.y {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.y1 {
+    box-sizing: border-box;
+    border: 1px solid #a0d468;
+    background-color: #a0d468;
+}
+
+.y2 {
+    box-sizing: border-box;
+    border: 1px solid #a0d468;
+    background-color: transparent;
+}
+
+.y3 {
+    box-sizing: border-box;
+    border: 1px solid #a0d468;
+    background-color: transparent;
+    height: 10vh;
+}
+
+.y3 button {
+    width: 30%;
+    height: 4vh;
+    margin-top: 15%;
+    background-color: #a0d468;
+}
+
+.z {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.z1 {
+    box-sizing: border-box;
+    border: 1px solid #fc6e51;
+    background-color: #fc6e51;
+}
+
+.z2 {
+    box-sizing: border-box;
+    border: 1px solid #fc6e51;
+    background-color: transparent;
+}
+
+.z3 {
+    box-sizing: border-box;
+    border: 1px solid #fc6e51;
+    background-color: transparent;
+    height: 10vh;
+}
+
+.z3 button {
+    width: 30%;
+    height: 4vh;
+    margin-top: 15%;
+    background-color: #fc6e51;
+}
+
+.main10 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/team.png);
+    color: #fff;
+    padding-bottom: 10%;
+}
+
+.f {
+    width: 70%;
+    margin: auto;
+}
+
+.f h1 {
+    margin: 20px 0 20px 0;
+}
+
+.f p {
+    margin: 20px 0 10px 0;
+}
+
+.f1 {
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+
+.ff1 {
+    background-color: rgba(72, 207, 173, 0.68)
+}
+
+.ff2 {
+    background-color: #fff;
+    color: #000;
+}
+
+.ff3 {
+    background-color: whitesmoke;
+    margin-top: -3%;
+}
+
+.main11 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.g {
+    width: 60%;
+    margin: auto;
+}
+
+.g1 {
+    width: 16%;
+    float: left;
+}
+
+.g1 img {
+    width: 80%;
+}
+
+.main12 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #ffce54;
+    color: #fff;
+    padding-top: 3%;
+    padding-bottom: 30%;
+}
+
+.h {
+    width: 70%;
+    margin: auto;
+}
+
+.h1 {
+    text-align: left;
+}
+
+.h p {
+    margin: 10px 0 31px 0;
+}
+
+.h1 label {
+    color: #000;
+}
+
+.h1 input {
+    width: 85%;
+    height: 4vh;
+    margin: 10px 0 10px 0;
+}
+
+.h button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 7%;
+    height: 3vh;
+}
+
+.main13 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #ffce54;
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.i {
+    width: 70%;
+    margin: auto;
+}
+
+.i i {
+    box-sizing: border-box;
+    border: 4px solid white;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5%;
+}
+
+.i1 h5 {
+    margin-top: 10%;
+}
+
+.i1 {
+    width: 33%;
+    float: left;
+
+}
+
+.main14 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/fotterback.png);
+    color: #fff;
+}
+
+@media only screen and (max-width:1200px) {
+    .main5 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: #303030;
+        height: 40vh;
+    }
+
+    .b1 {
+        box-sizing: border-box;
+        border: 1px solid white;
+        height: 25vh;
+        margin-top: 3%;
+        color: #fff;
+        text-align: left;
+        padding: 0 0 0 3%;
+    }
+
+    .d1 {
+        width: 22%;
+        float: left;
+        margin: 30px 10px 30px 10px;
+    }
+
+    .h1 input {
+        width: 85%;
+        height: 9vh;
+        margin: 10px 0 10px 0;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .main1 {
+        width: 130%;
+        float: left;
+        text-align: center;
+    }
+
+    .right1 {
+        display: flex;
+        margin-left: 90%;
+        font-size: 25px;
+        margin-top: 3%;
+    }
+
+    .right {
+        width: 50%;
+        display: none;
+        float: left;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .main2 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-image: url(img/slider/cloud.png);
+        background-color: #000;
+        background-size: cover;
+    }
+
+    .main3 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-color: #323A45;
+        color: #fff;
+    }
+
+    .main4 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(rgba(179, 105, 149, 0.70), #b36995), url(img/parlex.png);
+    }
+
+    .main5 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-color: #303030;
+        height: 40vh;
+    }
+
+    .main6 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(#800b36, rgba(128, 11, 54, 0.50) 56%), url(img/parlex.png);
+    }
+
+    .main7 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(#0ac791, #00c788);
+    }
+
+    .main8 {
+        width: 130%;
+        float: left;
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(rgba(72, 207, 173, 0.99), rgba(72, 207, 173, 0.78)), url(img/parlex.png);
+    }
+
+    .main9 {
+        width: 130%;
+        padding-bottom: 5%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(#00b8b1, rgba(7, 148, 143, 0.92));
+    }
+
+    .main10 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/team.png);
+        color: #fff;
+        padding-bottom: 10%;
+    }
+
+    .main11 {
+        width: 130%;
+        float: left;
+        text-align: center;
+    }
+
+    .main12 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-color: #ffce54;
+        color: #fff;
+        padding-top: 3%;
+        padding-bottom: 30%;
+    }
+
+    .main13 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-color: #ffce54;
+        color: #fff;
+        padding-bottom: 5%;
+    }
+
+    .main14 {
+        width: 130%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/fotterback.png);
+        color: #fff;
+    }
+
+    .e2 {
+        width: 50%;
+        float: left;
+    }
+
+    .e2 img {
+        width: 95%;
+        margin-bottom: 10%;
+        box-sizing: border-box;
+        border: 10px solid #fff;
+    }
+
+    .v {
+        width: 81%;
+        margin: auto;
+    }
+
+    .w3 button {
+        width: 45%;
+        height: 5vh;
+        margin-top: 5%;
+        background-color: #ffce54;
+    }
+
+    .x3 button {
+        width: 45%;
+        height: 5vh;
+        margin-top: 5%;
+        background-color: #ed5565;
+    }
+
+    .y3 button {
+        width: 45%;
+        height: 5vh;
+        margin-top: 5%;
+        background-color: #a0d468;
+    }
+
+    .z3 button {
+        width: 45%;
+        height: 5vh;
+        margin-top: 5%;
+        background-color: #fc6e51;
+    }
+
+    textarea {
+        width: 84%;
+    }
+
+    textarea {
+        width: 84%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .main1 {
+        width: 166%;
+        float: left;
+        text-align: center;
+    }
+
+    .main2 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-image: url(img/slider/cloud.png);
+        background-color: #000;
+        background-size: cover;
+    }
+
+    .main3 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-color: #323A45;
+        color: #fff;
+    }
+
+    .main4 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(rgba(179, 105, 149, 0.70), #b36995), url(img/parlex.png);
+    }
+
+    .a1 {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-top: 5%;
+    }
+
+    .a2 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .main5 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-color: #303030;
+        height: 40vh;
+    }
+
+    .main6 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(#800b36, rgba(128, 11, 54, 0.50) 56%), url(img/parlex.png);
+    }
+
+    .c2 {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .main7 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(#0ac791, #00c788);
+    }
+
+    .d1 {
+        width: 100%;
+        float: left;
+        margin: 30px 10px 30px 10px;
+    }
+
+    .main8 {
+        width: 166%;
+        float: left;
+        color: #fff;
+        text-align: center;
+        background-image: linear-gradient(rgba(72, 207, 173, 0.99), rgba(72, 207, 173, 0.78)), url(img/parlex.png);
+    }
+
+    .e2 {
+        width: 100%;
+        float: left;
+    }
+
+    .main9 {
+        width: 166%;
+        padding-bottom: 5%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(#00b8b1, rgba(7, 148, 143, 0.92));
+    }
+
+    .w {
+        width: 90%;
+        float: left;
+        text-align: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .x {
+        width: 90%;
+        float: left;
+        text-align: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .y {
+        width: 90%;
+        float: left;
+        text-align: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .z {
+        width: 90%;
+        float: left;
+        text-align: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .main10 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/team.png);
+        color: #fff;
+        padding-bottom: 10%;
+    }
+
+    .f1 {
+        width: 80%;
+        float: left;
+        margin-left: 2%;
+    }
+
+    .main11 {
+        width: 166%;
+        float: left;
+        text-align: center;
+    }
+
+    .main12 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-color: #ffce54;
+        color: #fff;
+        padding-top: 3%;
+        padding-bottom: 30%;
+    }
+
+    .main13 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-color: #ffce54;
+        color: #fff;
+        padding-bottom: 5%;
+    }
+
+    .main14 {
+        width: 166%;
+        float: left;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/fotterback.png);
+        color: #fff;
+    }
+
+    .i1 {
+        width: 100%;
+        float: left;
+        margin-bottom: 10%;
+    }
+}
